@@ -36,11 +36,12 @@ ul{
     padding: 0;
     gap: 16px
 }
-a{
+.header-links a{
     color:#E5E7EB;
     text-decoration: none;
     
 }
-a:hover{
+.header-links a:hover{
     color:#3882F6;
 }
+
