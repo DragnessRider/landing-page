@@ -13,6 +13,16 @@ body{
     font-weight: 900;
 
 }
+.logo-img{
+    font-size:24px;
+    color:#f9faf8;
+    margin: 0;
+    padding: 0;
+}
+.header-links{
+    font-size:18px;
+    color:#E5E7EB;
+}
 ul{
     display: flex;
     list-style: none;
@@ -21,7 +31,7 @@ ul{
     gap: 16px
 }
 a{
-    color:#f9faf8;
+    color:#E5E7EB;
     text-decoration: none;
     
 }
