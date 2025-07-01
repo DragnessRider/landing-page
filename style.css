@@ -7,15 +7,29 @@ body{
 .header-background{
     background: #1F2937;
     color: #f9faf8;
+    padding:50px;
+}
+.info-background{
+    background: #f9faf8;
+    padding:50px;
+}
+.quote-background{
+    background: #E5E7EB;
+    color:#1F2937;
+    padding:50px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
 }
 .cta-background{
     background:#f9faf8;
-    margin:50px;
+    padding:50px;
+    color: #f9faf8;
 }
 .cta{
     display: flex;
     flex-direction: row;
-    color: #f9faf8;
     background:#3882F6;
     border-radius:10px;
     padding:10px;
@@ -24,15 +38,16 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-button{
+.cta-button button{
     color: #f9faf8;
     background:#3882F6;
     border:1px solid #f9faf8;
     font-size:15px;
     border-radius:5px;
-    width: 100px;
+    width: 120px;
     height: fit-content;
     padding:10px;
+    margin-right:25px;
 }
 .cta-button{
     display: flex;
@@ -43,7 +58,7 @@ button{
     margin-right: auto;
 }
 .cta-header{
-    font-size:24px;
+    font-size:20px;
     color:#f9faf8;
     font-weight: 900;
 }
@@ -56,5 +71,6 @@ button{
 .footer-background{
     background: #1F2937;
     color: #f9faf8;
+    padding:20px
 }
 
