@@ -27,16 +27,27 @@ body{
 }
 .cta{
     display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-content:center;
     color: #f9faf8;
     background:#3882F6;
-    font-size: 18px;
-    border-radius:10px;
-    width:600px;
-    height:auto;
-    margin-left:50px;
+    width: auto;
+}
+button{
+    color: #f9faf8;
+    background:#3882F6;
+    border:1px solid #f9faf8;
+    font-size:15px;
+    border-radius:5px;
+    width: 100px;
+    height: fit-content;
+    padding:10px;
+}
+.cta-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo-img{
     font-size:24px;
