@@ -13,6 +13,8 @@ body{
     background:#1F2937;
     width:800px;
     padding:15px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .footer{
@@ -24,12 +26,20 @@ body{
     background:#1F2937;
     width:800px;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cta{
-    display:flex;
+    display: flex;
+    flex-direction: row;
     color: #f9faf8;
     background:#3882F6;
-    width: auto;
+    border-radius:10px;
+    padding:10px;
+    width:700px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 button{
     color: #f9faf8;
@@ -48,6 +58,17 @@ button{
     align-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+.cta-header{
+    font-size:24px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+.cta-text{
+    display:flex;
+    flex-direction: column;
+    padding:0px;
+    margin-right: 80px;
 }
 .logo-img{
     font-size:24px;
