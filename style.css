@@ -22,6 +22,12 @@ body{
     font-size: 36px;
     font-style: italic;
 }
+cite{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-weight: 900;
+}
 .cta-background{
     background:#f9faf8;
     padding:50px;
@@ -42,6 +48,18 @@ body{
     color: #f9faf8;
     background:#3882F6;
     border:1px solid #f9faf8;
+    font-size:15px;
+    border-radius:5px;
+    width: 120px;
+    height: fit-content;
+    padding:10px;
+    margin-right:25px;
+}
+.cta-button button:hover{
+    color: #f9faf8;
+    background:#1f56ad;
+    border:1px solid #1f56ad;
+;
     font-size:15px;
     border-radius:5px;
     width: 120px;
@@ -72,5 +90,10 @@ body{
     background: #1F2937;
     color: #f9faf8;
     padding:20px
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
