@@ -12,12 +12,21 @@ body{
     color: #f9faf8;
     font-weight: 900;
     background:#1F2937;
+    width:950px;
+    height:1px;
+    margin-left:50px;
+    margin-right:50px;
 }
 .footer{
-    text-align:center;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
     color: #f9faf8;
     background:#1F2937;
     font-size: 18px;
+    margin-left:50px;
+    margin-right:50px;
 }
 .logo-img{
     font-size:24px;
@@ -43,17 +52,4 @@ ul{
 }
 .header-links a:hover{
     color:#3882F6;
-}
-.hero{
-    display: inline-block;
-
-}
-.hero-text{
-    font-size: 48px;
-    font-weight: 900px;
-    color:#f9faf8;
-}
-.hero-sub-text{
-    font-size:18px;
-    color:#E5E7EB;
 }
