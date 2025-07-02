@@ -96,4 +96,13 @@ cite{
     justify-content: center;
     align-content: center;
 }
-
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: none;
+    color: #3882F6;
+    font-size: 18px;
+}
