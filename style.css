@@ -36,6 +36,9 @@ ul{
 .header-links{
     font-size: 15px;
 }
+.container1{
+    display:flex
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -43,11 +46,24 @@ ul{
     align-content: center;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 5px;
+    padding:40px;
+    margin-top: 30px;
 }
 .main{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+.img-placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background: gray;
+    width:1000px;
+    padding:50px;
+    height: 100px;
 }
 .hero-button{
     color: #f9faf8;
