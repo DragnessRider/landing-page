@@ -93,6 +93,27 @@ ul{
     background: #f9faf8;
     padding:50px;
 }
+.info-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+.container2{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap:20px;
+}
+.img{
+    display:flex;
+    background:#f9faf8;
+    width: 100px;
+    height: 50px;
+    padding:30px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
 .quote-background{
     background: #E5E7EB;
     color:#1F2937;
